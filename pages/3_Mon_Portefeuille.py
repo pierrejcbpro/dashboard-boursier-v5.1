@@ -20,8 +20,10 @@ with c1:
 with c2:
     if st.button("🗑 Réinitialiser"):
         if os.path.exists(PATH): os.remove(PATH)
-        st.session_state.pop("port_editor", None)
-        st.experimental_rerun()
+        for key in list(st.session_state.keys()):
+            del st.session_state[key]
+        st.rerun()
+
 
 if edited.empty:
     st.info("Ajoutez des lignes (Ticker requis)."); st.stop()
