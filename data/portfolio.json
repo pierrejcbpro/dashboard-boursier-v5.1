@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Airbus SE",
+    "Ticker": "AIR.PA",
+    "Account": "PEA",
+    "Quantity": 10,
+    "PRU": 154.2
+  },
+  {
+    "Name": "NVIDIA Corp.",
+    "Ticker": "NVDA",
+    "Account": "CTO",
+    "Quantity": 5,
+    "PRU": 395.0
+  },
+  {
+    "Name": "Orange SA",
+    "Ticker": "ORA.PA",
+    "Account": "PEA",
+    "Quantity": 100,
+    "PRU": 9.55
+  }
+]
